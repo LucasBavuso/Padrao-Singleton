@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 public class CriptografiaTest {
 
     @Test
-    public void deveRetornarAlgoritimo() {
-        Criptografia.getInstance().setAlgoritimo("AES/CBC/PKCS5Padding");
-        assertEquals("AES/CBC/PKCS5Padding", Criptografia.getInstance().getAlgoritimo());
+    public void deveRetornarAlgoritmo() {
+        Criptografia.getInstance().setAlgoritmo("AES/CBC/PKCS5Padding");
+        assertEquals("AES/CBC/PKCS5Padding", Criptografia.getInstance().getAlgoritmo());
     }
 
     @Test
