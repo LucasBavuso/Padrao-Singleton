@@ -9,7 +9,7 @@ public class Criptografia {
     }
 
     private String chave;
-    private String algoritimo;
+    private String Algoritmo;
 
     public String getChaveMestra() {
         return chave;
@@ -19,11 +19,11 @@ public class Criptografia {
         this.chave = chave;
     }
 
-    public String getAlgoritimo() {
-        return algoritimo;
+    public String getAlgoritmo() {
+        return algoritmo;
     }
 
-    public void setAlgoritimo(String algoritimo) {
-        this.algoritimo = algoritimo;
+    public void setAlgoritmo(String Algoritmo) {
+        this.algoritmo = algoritmo;
     }
 }
